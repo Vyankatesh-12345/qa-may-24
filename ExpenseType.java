@@ -11,7 +11,7 @@ public class ExpenseType extends Lunch {
 	
 	public int meals()
 	{
-		total=1000+2000;
+		total=Dinner+Breakfast;
 		return total;	}
 	
 	public  int totalExpense() {
