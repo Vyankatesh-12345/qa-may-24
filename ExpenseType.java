@@ -1,11 +1,12 @@
 
-public class ExpenseType {
+public class ExpenseType extends Lunch {
 	
 	public static int Dinner =1000;
 	public static int Breakfast=2000;
 	public static int carRental=3000;
 	public static int total=0;
 	public static int total1=0;
+	public static int total2=0;
 	
 	
 	public int meals()
@@ -19,5 +20,11 @@ public class ExpenseType {
 		return total1;
 	}
 	
-
+	public int mealsWithLunch() {
+		total2=lunch+Dinner+Breakfast;
+		
+		
+		return total2;
+		
+	}
 }
